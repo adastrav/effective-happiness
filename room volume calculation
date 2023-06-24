@@ -1,0 +1,10 @@
+def calculate_room_volume(length, width, height):
+    volume = length * width * height
+    return volume
+
+length = float(input("Enter the length of the room (in meters): "))
+width = float(input("Enter the width of the room (in meters): "))
+height = float(input("Enter the height of the room (in meters): "))
+
+volume = calculate_room_volume(length, width, height)
+print("The volume of the room is", volume, "cubic meters.")
